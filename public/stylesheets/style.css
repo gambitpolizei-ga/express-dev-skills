@@ -1,8 +1,37 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 60px;
+  font: 33px 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(53, 40, 162);
+  background: rgb(232, 232, 232)
 }
 
 a {
-  color: #00B7FF;
+  color: #4259C3;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 15px;
+}
+	
+.delete-form button {
+  color: black;
+  font-family: 'Yatra One', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  padding: 0.5vmin;
+  border-radius: 0.5vmin;
+  margin-top: 3vmin;
+  box-shadow: black 5px 5px 10px 5px;
+}
+
+.delete-form button:hover {
+  color: darkred;
+  background-image: linear-gradient(to right, white 0%, lightgrey 50%, darkgrey 100%);
+  transition: background-color 100ms ease-in;
+}
+	
+li {
+  list-style: none;
 }
